@@ -1,0 +1,81 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Arial;
+  background: #f4f4f4;
+  color: #222;
+}
+
+header {
+  position: sticky;
+  top: 0;
+  background: #111;
+  color: white;
+  padding: 15px;
+  display: flex;
+  justify-content: space-around;
+}
+nav a {
+  color: white;
+  margin: 10px;
+  text-decoration: none;
+}
+section {
+  padding: 50px 10%;
+}
+#home {
+  text-align: center;
+  background: white;
+}
+#home img {
+  width: 50px;
+  border: 2px solid #111;
+  display: block;
+  margin: 20px auto;
+}
+.cards {
+  display: flex;
+  gap: 15px;
+  flex-wrap: wrap;
+}
+.cards div {
+  background: white;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  flex: 1;
+}
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+th,
+td {
+  padding: 10px;
+  border: 1px solid #aaa;
+}
+input,
+textarea {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+}
+#contact {
+  text-align: center;
+}
+button {
+  padding: 10px 20px;
+  background: #2563eb;
+  color: white;
+  border: 0;
+}
+footer {
+  text-align: center;
+  padding: 20px;
+  background: #111;
+  color: white;
+}
