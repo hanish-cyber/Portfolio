@@ -82,13 +82,13 @@ section {
 table {
   width: 100%;
   border-collapse: collapse;
-  background: rgb(51, 4, 4);
+  background: white;
 }
 
 th,
 td {
   padding: 10px;
-  border: 1px solid #5c4747;
+  border: 1px solid #aaa;
 }
 
 input,
